@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ar" dir="rtl">
 <head>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MWQ4KJTG3Y"></script>
@@ -12,9 +12,9 @@
 </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="description" content="DataGram - The smartest way to get interested customers without advertising costs. Complete solution for data extraction and smart lead generation.">
+    <meta name="description" content="DataGram - أذكى طريقة للحصول على عملاء مهتمين بدون تكاليف إعلانية. حل متكامل لاستخراج البيانات وتوليد العملاء المحتملين بذكاء.">
     <meta name="theme-color" content="#4361ee">
-    <title>DataGram | The Smartest Way to Get Customers Without Ads</title>
+    <title>DataGram | أذكى طريقة للحصول على العملاء بدون إعلانات</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -124,12 +124,12 @@
             position: absolute;
             inset: 0;
             background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
-            transform: translateX(-100%);
+            transform: translateX(100%);
             transition: transform 0.6s;
         }
 
         .btn:hover::before {
-            transform: translateX(100%);
+            transform: translateX(-100%);
         }
 
         .btn:hover {
@@ -178,8 +178,8 @@
         .navbar {
             position: fixed;
             top: 0;
-            left: 0;
             right: 0;
+            left: 0;
             z-index: 1000;
             transition: all 0.3s ease;
             padding: 20px 0;
@@ -225,7 +225,7 @@
             content: '';
             position: absolute;
             bottom: -6px;
-            left: 0;
+            right: 0;
             width: 0;
             height: 2.5px;
             background: linear-gradient(90deg, var(--primary), var(--accent));
@@ -265,7 +265,7 @@
         #particles-canvas {
             position: absolute;
             top: 0;
-            left: 0;
+            right: 0;
             width: 100%;
             height: 100%;
             z-index: 0;
@@ -379,11 +379,11 @@
         }
 
         .title-underline::before {
-            left: -15px;
+            right: -15px;
         }
 
         .title-underline::after {
-            right: -15px;
+            left: -15px;
         }
 
         /* About Section */
@@ -569,7 +569,7 @@
         .responsive-iframe iframe {
             position: absolute;
             top: 0;
-            left: 0;
+            right: 0;
             width: 100%;
             height: 100%;
             border: none;
@@ -603,8 +603,8 @@
             content: '';
             position: absolute;
             top: 0;
-            left: 0;
             right: 0;
+            left: 0;
             height: 4px;
             background: linear-gradient(90deg, var(--primary), var(--accent));
             transform: scaleX(0);
@@ -693,12 +693,12 @@
 
         .stats-glow-1 {
             top: -100px;
-            left: 10%;
+            right: 10%;
         }
 
         .stats-glow-2 {
             bottom: -100px;
-            right: 10%;
+            left: 10%;
         }
 
         .stats-grid {
@@ -759,12 +759,12 @@
 
         .contact-orb-1 {
             top: 20px;
-            left: 10%;
+            right: 10%;
         }
 
         .contact-orb-2 {
             bottom: 20px;
-            right: 10%;
+            left: 10%;
             animation-delay: 1.5s;
         }
 
@@ -1007,19 +1007,19 @@
     <canvas id="particles-canvas"></canvas>
     
     <!-- Floating Orbs -->
-    <div class="floating-orb" style="width: 300px; height: 300px; background: radial-gradient(circle, rgba(67,97,238,0.3) 0%, transparent 70%); top: 10%; left: 5%; animation: float 8s ease-in-out infinite;"></div>
-    <div class="floating-orb" style="width: 250px; height: 250px; background: radial-gradient(circle, rgba(157,78,221,0.3) 0%, transparent 70%); top: 60%; right: 10%; animation: float 10s ease-in-out infinite; animation-delay: 2s;"></div>
-    <div class="floating-orb" style="width: 200px; height: 200px; background: radial-gradient(circle, rgba(67,97,238,0.25) 0%, transparent 70%); bottom: 20%; left: 20%; animation: float 7s ease-in-out infinite; animation-delay: 1s;"></div>
+    <div class="floating-orb" style="width: 300px; height: 300px; background: radial-gradient(circle, rgba(67,97,238,0.3) 0%, transparent 70%); top: 10%; right: 5%; animation: float 8s ease-in-out infinite;"></div>
+    <div class="floating-orb" style="width: 250px; height: 250px; background: radial-gradient(circle, rgba(157,78,221,0.3) 0%, transparent 70%); top: 60%; left: 10%; animation: float 10s ease-in-out infinite; animation-delay: 2s;"></div>
+    <div class="floating-orb" style="width: 200px; height: 200px; background: radial-gradient(circle, rgba(67,97,238,0.25) 0%, transparent 70%); bottom: 20%; right: 20%; animation: float 7s ease-in-out infinite; animation-delay: 1s;"></div>
     
     <div class="hero-content">
-        <img src="https://raw.githubusercontent.com/DataGram-lab/DataGram/main/datagramlogosub.png" alt="DataGram Logo" class="hero-logo">
+        <img src="https://raw.githubusercontent.com/DataGram-lab/DataGram/main/datagramlogosub.png" alt="شعار DataGram" class="hero-logo">
         
         <h1>
-            <span class="gradient-text">The smartest way to get</span><br>
-            <span style="color: var(--text-dark);">Interested Customers </span>
+            <span class="gradient-text">أذكى طريقة للحصول على</span><br>
+            <span style="color: var(--text-dark);">عملاء مهتمين </span>
             <span style="position: relative; display: inline-block;">
-                <span class="gradient-text">Without Advertising Costs</span>
-                <svg style="position: absolute; bottom: -8px; left: 0; width: 100%; height: 12px;" viewBox="0 0 300 12" preserveAspectRatio="none">
+                <span class="gradient-text">بدون تكاليف إعلانية</span>
+                <svg style="position: absolute; bottom: -8px; right: 0; width: 100%; height: 12px;" viewBox="0 0 300 12" preserveAspectRatio="none">
                     <path d="M2 10C50 4 100 2 150 2C200 2 250 4 298 10" stroke="url(#lineGradient)" stroke-width="3" stroke-linecap="round" fill="none"/>
                     <defs>
                         <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -1032,27 +1032,27 @@
         </h1>
         
         <p>
-            Discover the power of data and intelligently target potential customers with DataGram — 
-            the complete solution to grow your business and achieve unprecedented profits.
+            اكتشف قوة البيانات واستهدف العملاء المحتملين بذكاء مع DataGram — 
+            الحل المتكامل لتنمية أعمالك وتحقيق أرباح غير مسبوقة.
         </p>
         
         <div class="btn-group">
-            <a href="https://github.com/DataGram-lab/DataGram/releases/download/DataGram/DataGramInstaller.exe" class="btn btn-windows">
+            <a href="https://github.com/DataGram-lab/DataGram/releases/download/DataGram/DGInstaller.exe" class="btn btn-windows">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/>
                 </svg>
-                Download Software
+                تحميل البرنامج
             </a>
             <a href="https://wa.me/15812634546" class="btn btn-whatsapp">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                 </svg>
-                Contact Us
+                اتصل بنا
             </a>
         </div>
         
         <div class="scroll-indicator">
-            <span>Discover More</span>
+            <span>اكتشف المزيد</span>
             <div class="scroll-mouse">
                 <div class="scroll-dot"></div>
             </div>
@@ -1063,29 +1063,29 @@
 <!-- About Section -->
 <section class="about" id="about">
     <div class="container">
-        <h2 class="section-title reveal"><span class="gradient-text">What is DataGram?</span></h2>
+        <h2 class="section-title reveal"><span class="gradient-text">ما هو DataGram؟</span></h2>
         <div class="title-underline reveal"></div>
         
         <div class="about-grid">
             <div class="about-text reveal">
                 <p>
-                    <strong>DataGram</strong> is a professional Windows tool designed to extract and analyze data from multiple online sources. It was developed to help you find customers interested in your services or products without spending money on traditional advertising.
+                    <strong>DataGram</strong> هو أداة احترافية لنظام ويندوز صُممت لاستخراج وتحليل البيانات من مصادر متعددة عبر الإنترنت. تم تطويرها لمساعدتك في العثور على عملاء مهتمين بخدماتك أو منتجاتك دون إنفاق الأموال على الإعلانات التقليدية.
                 </p>
                 <p>
-                    Using advanced AI algorithms, DataGram collects and classifies relevant data for your business, connecting you with a highly targeted customer base at minimal cost and delivering immediate results.
+                    باستخدام خوارزميات الذكاء الاصطناعي المتقدمة، يقوم DataGram بجمع وتصنيف البيانات ذات الصلة بنشاطك التجاري، مما يصلك بقاعدة عملاء مستهدفة بتكلفة ضئيلة ويحقق نتائج فورية.
                 </p>
                 <div class="btn-group" style="justify-content: flex-start; margin-top: 30px;">
-                    <a href="https://github.com/DataGram-lab/DataGram/releases/download/DataGram/DataGramInstaller.exe" class="btn btn-windows">
+                    <a href="https://github.com/DataGram-lab/DataGram/releases/download/DataGram/DGInstaller.exe" class="btn btn-windows">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/>
                         </svg>
-                        Download Software
+                        تحميل البرنامج
                     </a>
                     <a href="https://wa.me/15812634546" class="btn btn-whatsapp">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                         </svg>
-                        Contact Us
+                        اتصل بنا
                     </a>
                 </div>
             </div>
@@ -1094,23 +1094,23 @@
             <div class="about-card-wrapper reveal">
                 <div class="about-card">
                     <div class="icon-box">
-                        <img src="https://raw.githubusercontent.com/DataGram-lab/DataGram/main/datagramlogosub.png" alt="DataGram Logo">
+                        <img src="https://raw.githubusercontent.com/DataGram-lab/DataGram/main/datagramlogosub.png" alt="شعار DataGram">
                     </div>
-                    <h3>Accurate Data = More Sales</h3>
-                    <p>Leverage the latest AI technologies to analyze potential customer behavior and reach them at the right time.</p>
+                    <h3>بيانات دقيقة = مبيعات أكثر</h3>
+                    <p>استفد من أحدث تقنيات الذكاء الاصطناعي لتحليل سلوك العملاء المحتملين والوصول إليهم في الوقت المناسب.</p>
                     <div class="card-badges">
                         <div class="badge">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
                             </svg>
-                            <span>AI powered</span>
+                            <span>مدعوم بالذكاء الاصطناعي</span>
                         </div>
                         <div class="badge">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
                                 <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
                             </svg>
-                            <span>Windows native</span>
+                            <span>تطبيق ويندوز أصلي</span>
                         </div>
                     </div>
                 </div>
@@ -1122,32 +1122,32 @@
 <!-- How It Works -->
 <section class="how-it-works" id="how-it-works">
     <div class="container">
-        <h2 class="section-title reveal"><span class="gradient-text">How Does DataGram Work?</span></h2>
+        <h2 class="section-title reveal"><span class="gradient-text">كيف يعمل DataGram؟</span></h2>
         <div class="title-underline reveal"></div>
         <p class="section-subtitle reveal">
-            Watch the tutorial video and discover how DataGram can transform your business and bring new customers without spending a single dollar on ads.
+            شاهد الفيديو التعليمي واكتشف كيف يمكن لـ DataGram أن يحوّل نشاطك التجاري ويجلب لك عملاء جدد دون إنفاق دولار واحد على الإعلانات.
         </p>
         
         <div class="video-wrapper reveal">
             <div class="video-container">
                 <div class="responsive-iframe">
-                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2437931286716812%2F&show_text=false&width=560&t=0" style="border:none; overflow:hidden;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1670691154256527%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
                 </div>
             </div>
         </div>
         
         <div class="btn-group reveal">
-            <a href="https://github.com/DataGram-lab/DataGram/releases/download/DataGram/DataGramInstaller.exe" class="btn btn-windows">
+            <a href="https://github.com/DataGram-lab/DataGram/releases/download/DataGram/DGInstaller.exe" class="btn btn-windows">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/>
                 </svg>
-                Download DataGram Now
+                حمّل DataGram الآن
             </a>
             <a href="https://wa.me/15812634546" class="btn btn-whatsapp">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                 </svg>
-                Contact Support
+                تواصل مع الدعم
             </a>
         </div>
     </div>
@@ -1156,39 +1156,39 @@
 <!-- Features -->
 <section class="features" id="features">
     <div class="container">
-        <h2 class="section-title reveal"><span class="gradient-text">DataGram Features</span></h2>
+        <h2 class="section-title reveal"><span class="gradient-text">مميزات DataGram</span></h2>
         <div class="title-underline reveal"></div>
         
         <div class="features-grid">
             <div class="feature-card reveal">
                 <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></div>
-                <h3>Unlimited Customers</h3>
-                <p>Get unlimited potential customers without restrictions, greatly increasing your business growth opportunities.</p>
+                <h3>عملاء بلا حدود</h3>
+                <p>احصل على عدد غير محدود من العملاء المحتملين دون أي قيود، مما يضاعف فرص نمو أعمالك بشكل كبير.</p>
             </div>
             <div class="feature-card reveal">
                 <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
-                <h3>Global Targeting</h3>
-                <p>Target customers from anywhere in the world and expand into new markets without geographical barriers.</p>
+                <h3>استهداف عالمي</h3>
+                <p>استهدف عملاء من أي مكان في العالم وتوسع في أسواق جديدة دون حواجز جغرافية.</p>
             </div>
             <div class="feature-card reveal">
                 <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg></div>
-                <h3>Advanced AI</h3>
-                <p>Smart AI algorithms that reach the right customers at the perfect time for maximum conversion.</p>
+                <h3>ذكاء اصطناعي متقدم</h3>
+                <p>خوارزميات ذكاء اصطناعي ذكية تصل إلى العملاء المناسبين في الوقت المثالي لتحقيق أقصى تحويل.</p>
             </div>
             <div class="feature-card reveal">
                 <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                <h3>Full Privacy & Security</h3>
-                <p>Your data is protected with the highest security standards, with complete confidentiality for extraction and analysis.</p>
+                <h3>خصوصية وأمان كاملان</h3>
+                <p>بياناتك محمية بأعلى معايير الأمان، مع سرية تامّة لعمليات الاستخراج والتحليل.</p>
             </div>
             <div class="feature-card reveal">
                 <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg></div>
-                <h3>Save Thousands of Dollars</h3>
-                <p>Instead of spending huge budgets on ads, get better results at a fraction of the cost.</p>
+                <h3>وفّر آلاف الدولارات</h3>
+                <p>بدلاً من إنفاق ميزانيات ضخمة على الإعلانات، احصل على نتائج أفضل بتكلفة أقل بكثير.</p>
             </div>
             <div class="feature-card reveal">
                 <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
-                <h3>24/7 Technical Support</h3>
-                <p>A dedicated support team around the clock to ensure a smooth experience and maximum results.</p>
+                <h3>دعم فني على مدار الساعة</h3>
+                <p>فريق دعم متخصص متواجد على مدار 24/7 لضمان تجربة سلسة وأقصى النتائج.</p>
             </div>
         </div>
         
@@ -1199,20 +1199,20 @@
             <div class="stats-glow stats-glow-1"></div>
             <div class="stats-glow stats-glow-2"></div>
             <div class="stats-grid">
-                <div class="stat-item"><div class="stat-number">+312</div><div class="stat-label">Active Clients</div></div>
-                <div class="stat-item"><div class="stat-number">+1.2M</div><div class="stat-label">Leads Extracted</div></div>
-                <div class="stat-item"><div class="stat-number">98%</div><div class="stat-label">User Satisfaction</div></div>
+                <div class="stat-item"><div class="stat-number">+312</div><div class="stat-label">عميل نشط</div></div>
+                <div class="stat-item"><div class="stat-number">+1.2M</div><div class="stat-label">عميل محتمل مستخرج</div></div>
+                <div class="stat-item"><div class="stat-number">98%</div><div class="stat-label">رضا المستخدمين</div></div>
             </div>
         </div>
         
         <div class="btn-group reveal">
-            <a href="https://github.com/DataGram-lab/DataGram/releases/download/DataGram/DataGramInstaller.exe" class="btn btn-windows">
+            <a href="https://github.com/DataGram-lab/DataGram/releases/download/DataGram/DGInstaller.exe" class="btn btn-windows">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
-                Download Now
+                حمّل الآن
             </a>
             <a href="https://wa.me/15812634546" class="btn btn-whatsapp">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                Contact Us
+                اتصل بنا
             </a>
         </div>
     </div>
@@ -1225,16 +1225,16 @@
         <div class="contact-orb contact-orb-1"></div>
         <div class="contact-orb contact-orb-2"></div>
         <div class="contact-content">
-            <h2>Are you ready?</h2>
-            <p>Join thousands of pioneers who changed the way they attract customers using DataGram. Contact us now to get your copy.</p>
+            <h2>هل أنت مستعد؟</h2>
+            <p>انضم إلى آلاف الرواد الذين غيروا طريقة جذب العملاء باستخدام DataGram. اتصل بنا الآن لتحصل على نسختك.</p>
             <div class="btn-group">
-                <a href="https://github.com/DataGram-lab/DataGram/releases/download/DataGram/DataGramInstaller.exe" class="btn btn-white">
+                <a href="https://github.com/DataGram-lab/DataGram/releases/download/DataGram/DGInstaller.exe" class="btn btn-white">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="#0078D7"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
-                    Download Software
+                    تحميل البرنامج
                 </a>
                 <a href="https://wa.me/15812634546" class="btn btn-outline">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                    WhatsApp: Instant Support
+                    واتساب: دعم فوري
                 </a>
             </div>
         </div>
@@ -1245,18 +1245,18 @@
 <footer class="footer">
     <div class="footer-content">
         <img src="https://raw.githubusercontent.com/DataGram-lab/DataGram/main/datagramlogosub.png" alt="DataGram" class="footer-logo">
-        <p class="footer-tagline">© 2025 DataGram — All Rights Reserved</p>
-        <p class="footer-desc">The smartest tool for extracting potential customers</p>
-        <p class="footer-desc">Complete Windows solution | Professional support & unlimited data extraction</p>
+        <p class="footer-tagline">© 2025 DataGram — جميع الحقوق محفوظة</p>
+        <p class="footer-desc">أذكى أداة لاستخراج العملاء المحتملين</p>
+        <p class="footer-desc">حل ويندوز متكامل | دعم احترافي واستخراج بيانات غير محدود</p>
         
         <div class="social-links">
-            <a href="https://wa.me/15812634546" class="social-link whatsapp" aria-label="WhatsApp">
+            <a href="https://wa.me/15812634546" class="social-link whatsapp" aria-label="واتساب">
                 <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
             </a>
-            <a href="https://www.facebook.com/profile.php?id=61577631912489" class="social-link facebook" aria-label="Facebook" target="_blank">
+            <a href="https://www.facebook.com/profile.php?id=61577631912489" class="social-link facebook" aria-label="فيسبوك" target="_blank">
                 <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
             </a>
-            <a href="https://www.tiktok.com/@datagram.site?_r=1&_t=ZS-9517CnW6KVJ" class="social-link tiktok" aria-label="TikTok" target="_blank">
+            <a href="https://www.tiktok.com/@datagram.site?_r=1&_t=ZS-9517CnW6KVJ" class="social-link tiktok" aria-label="تيك توك" target="_blank">
                 <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.589 6.686a4.793 4.793 0 0 1-3.77-4.245V2h-3.445v13.672a2.896 2.896 0 0 1-5.201 1.743l-.002-.001.002.001a2.895 2.895 0 0 1 3.183-4.51v-3.5a6.329 6.329 0 0 0-5.394 10.692 6.33 6.33 0 0 0 10.857-4.424V8.687a8.182 8.182 0 0 0 4.773 1.526V6.79a4.831 4.831 0 0 1-1.003-.104z"/></svg>
             </a>
         </div>
@@ -1369,6 +1369,7 @@
                 }
             });
         }, { threshold: 0.15, rootMargin: '0px 0px -50px 0px' });
+        revealElements.forEach(el => revealObserver.unobserve(el));
         revealElements.forEach(el => revealObserver.observe(el));
     })();
 </script>
